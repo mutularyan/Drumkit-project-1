@@ -13,12 +13,14 @@ h1 {
   font-family: Impact, "Arial Narrow Bold", sans-serif;
   letter-spacing: 4px;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   white-space: nowrap;
 }
 
 h6 {
   letter-spacing: 0.5px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -30,22 +32,22 @@ h6 {
   padding: 30px 50px;
   background-color: white;
   border: none;
-  margin: 10px;
+  margin: 12px;
   font-size: 30px;
   min-width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  background-image: url("images/tom.png");
+  border-radius: 12px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
   background-size: cover;
-  color: white;
-  font-family: cursive;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   text-transform: capitalize;
 }
 
 .btn:hover {
-  color: pink;
+  color: lightblue;
+  transition: 500ms;
 }
 
 .btn:active {
